@@ -302,7 +302,7 @@ CREATE TABLE `medico_has_hospital` (
 
 LOCK TABLES `medico_has_hospital` WRITE;
 /*!40000 ALTER TABLE `medico_has_hospital` DISABLE KEYS */;
-INSERT INTO `medico_has_hospital` VALUES (25,1);
+INSERT INTO `medico_has_hospital` VALUES (17,1),(18,1),(25,1);
 /*!40000 ALTER TABLE `medico_has_hospital` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -513,4 +513,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-11-26 11:38:21
+-- Dump completed on 2025-11-27  8:36:33
